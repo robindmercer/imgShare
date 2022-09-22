@@ -22,7 +22,7 @@ npm run dev
 # Tutorials
 
 - [Youtube (es)](https://youtu.be/TqC3e8nBycg)
-
+- [Special thanks to FAZT!!!]
 ## Resources
 
 - [Colors](https://www.color-hex.com/color-palette/26292)
