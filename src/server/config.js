@@ -8,9 +8,11 @@ const errorHandler = require('errorhandler');
 const routes = require('../routes/index');
 const home = require('../controllers/home')
 const image= require('../controllers/image')
+
+const { PORT } = process.env;
 module.exports = app => {
     //setting 
-    app.set('port', process.env.PORT || 3000)
+    app.set('port', process.env.PORT || 3001)
     app.set('views', path.join(__dirname, '../views'));
     app.engine(
         '.hbs',
