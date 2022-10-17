@@ -7,7 +7,7 @@ const express = require('express')
 const errorHandler = require('errorhandler');
 const routes = require('../routes/index');
 const home = require('../controllers/home')
-const image= require('../controllers/image')
+//const image= require('../controllers/image')
 
 const { PORT } = process.env;
 module.exports = app => {
@@ -32,13 +32,13 @@ module.exports = app => {
     app.use(express.json());
 
     //routes
-     app.get('/',home.index);
-     app.get('/images/:image_id',image.index);
-     app.post('/images',image.create);
-     app.post('/images/:image_id/like',image.like);
-     app.post('/images/:image_id/comment',image.comment);
-     app.delete('/images/:image_id',image.remove);
-//  routes(app)  no funciona esto 
+    //  app.get('/',home.index);
+    //  app.get('/images/:image_id',image.index);
+    //  app.post('/images',image.create);
+    //  app.post('/images/:image_id/like',image.like);
+    //  app.post('/images/:image_id/comment',image.comment);
+    //  app.delete('/images/:image_id',image.remove);
+    routes(app);  
     // static files 
     app.use('/public',express.static(path.join(__dirname,'../public')));
     //errorHandlers
