@@ -23,11 +23,11 @@ npm run dev
 
 - [Youtube (es)](https://youtu.be/TqC3e8nBycg)
 - [Special thanks to FAZT!!!]
+
 ## Resources
 
 - [Colors](https://www.color-hex.com/color-palette/26292)
 
-https://www.youtube.com/watch?v=TqC3e8nBycg
 # Start from Zero
 ```
 npm init -y
@@ -40,6 +40,9 @@ npm install fs-extra      // File System con Async Await
 npm install errorhandler  // Pinta errores por pantalla 
 npm install md5           // desifra codigo para  Gravatar servicio AVATAR Globalmente Reconocido
 npm install dotenv        // Para usar .env
+nom install moment        // Manejo fecha / horarios
 npm install nodemon -D
 npm install helper-timeago
 ```
+
+voy por 4:00
